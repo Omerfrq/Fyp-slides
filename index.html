@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>WebSlides: Making HTML presentations easy</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext"
+            rel="stylesheet"
+        />
+
+        <!-- CSS WebSlides -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="all"
+            href="static/css/webslides.css"
+        />
+
+        <!-- Optional - CSS SVG Icons (Font Awesome) -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="all"
+            href="static/css/svg-icons.css"
+        />
+
+        <meta property="og:image" content="static/images/share-webslides.jpg" />
+    </head>
+    <body>
+        <main role="main">
+            <article id="webslides" class="vertical">
+                <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+                <section class="bg-black-blue">
+                    <!--.wrap = container (width: 90%) -->
+                    <div class="wrap">
+                        <blockquote class="text-quote">
+                            <p>
+                                I feel like every project I work on is a dream
+                                project, so long as I am learning.
+                            </p>
+                            <p>
+                                <cite><a href="#">Simeon Kondev</a></cite>
+                            </p>
+                        </blockquote>
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+                <section class="fullscreen bg-apple">
+                    <span
+                        class="background dark"
+                        style="background-image:url('https://source.unsplash.com/RSOxw9X-suY/')"
+                    ></span>
+                    <!--.wrap = container (width: 90%) -->
+                    <div class="wrap aligncenter">
+                        <h1 class="text-landing">
+                            <strong>HireKar.com</strong>
+                        </h1>
+                    </div>
+                </section>
+
+                <section class="fullscreen bg-apple">
+                    <span
+                        class="background dark"
+                        style="background-image:url('https://source.unsplash.com/RSOxw9X-suY/')"
+                    ></span>
+
+                    <div class="wrap aligncenter">
+                        <h1><strong>What is HireKar.com?</strong></h1>
+                        <p class="text-intro">
+                            It is an E-Marketplace web-application which will
+                            connect clients
+                            <br />
+                            with thousands of Photographers on one single
+                            platform.
+                        </p>
+                    </div>
+                </section>
+                <section class="fullscreen bg-apple">
+                    <span
+                        class="background dark"
+                        style="background-image:url('https://source.unsplash.com/RSOxw9X-suY/')"
+                    ></span>
+                    <div class="wrap  aligncenter">
+                        <h2><strong>Why HireKar.com?</strong></h2>
+                        <div class="bg-apple shadow">
+                            <ul class="flexblock reasons">
+                                <li>
+                                    <h2>
+                                        No Marketplace for the Photographers in
+                                        Pakistan.
+                                    </h2>
+                                    <p>
+                                        No marketplace in available for the
+                                        photographers to showcase their talent
+                                        and portfolio.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h2>Wastage of time and effort.</h2>
+                                    <p>
+                                        The only way they get clients is through
+                                        social media,references or work of mouth
+                                        which requires time and effort.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h2>Not enough options.</h2>
+                                    <p>
+                                        You don't have much to start with and no
+                                        proper way judging the photographer.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="fullscreen bg-apple">
+                    <span
+                        class="background dark"
+                        style="background-image:url('https://source.unsplash.com/RSOxw9X-suY/')"
+                    ></span>
+                    <div class="wrap  aligncenter">
+                        <h2>
+                            <strong>Solutions It will Provide.</strong>
+                        </h2>
+                        <div class="bg-apple shadow">
+                            <ul class="flexblock reasons">
+                                <li>
+                                    <h2>
+                                        Providing a Starting Point for the
+                                        Photographers.
+                                    </h2>
+                                    <p>
+                                        Hirekar simply eliminates all the
+                                        barrier between the photographer and the
+                                        client by providing a starting point
+                                        through this platform.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h2>An opportunity to engage.</h2>
+                                    <p>
+                                        You get to know about the photographer
+                                        to see if he is the right fit for the
+                                        job.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h2>Elimination the hassle and time.</h2>
+                                    <p>
+                                        You get to select the right person for
+                                        the job without any hassle and Wastage
+                                        of time.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- .end .bg-white shadow -->
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+                <section class="bg-apple">
+                    <span
+                        class="background dark"
+                        style="background-image:url('https://source.unsplash.com/RSOxw9X-suY/')"
+                    ></span>
+                    <div class="wrap">
+                        <h2>Tools and Technology to be Used.</h2>
+                        <ul class="flexblock features">
+                            <li>
+                                <div>
+                                    <h2>
+                                        Angular
+                                    </h2>
+                                    For the Frontend.
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h2>
+                                        Nodejs / Express
+                                    </h2>
+                                    For the Backend.
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h2>
+                                        <svg class="fa-git">
+                                            <use xlink:href="#fa-git"></use>
+                                        </svg>
+                                        Github
+                                    </h2>
+                                    For the Version-Control.
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h2>
+                                        <svg class="fa-database">
+                                            <use
+                                                xlink:href="#fa-database"
+                                            ></use>
+                                        </svg>
+                                        Mongodb
+                                    </h2>
+                                    For the Persistence.
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h2>
+                                        <svg class="fa-code">
+                                            <use xlink:href="#fa-code"></use>
+                                        </svg>
+                                        Rest API
+                                    </h2>
+                                    For Interaction and Fetching Data.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="bg-apple">
+                    <span
+                        class="background dark"
+                        style="background-image:url('https://source.unsplash.com/RSOxw9X-suY/')"
+                    ></span>
+                    <div class="wrap">
+                        <h2>
+                            <strong>Core Modules</strong>
+                        </h2>
+                        <div class="grid vertical-align">
+                            <div class="column">
+                                <h4>
+                                    <svg class="fa-life-ring">
+                                        <use xlink:href="#fa-life-ring"></use>
+                                    </svg>
+                                    <strong>Exif</strong>
+                                </h4>
+                                <p>
+                                    Exif Data Extraction From the Images.
+                                </p>
+                                <ul class="description">
+                                    <li>
+                                        <a href="#" title="#">Dimensions.</a>.
+                                    </li>
+                                    <li><a href="#">Camera Name</a>.</li>
+                                    <li>
+                                        <a href="#">Model...</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="column">
+                                <h4>
+                                    <svg class="fa-dashcube">
+                                        <use xlink:href="#fa-dashcube"></use>
+                                    </svg>
+                                    <strong>Dashboard.</strong>
+                                </h4>
+                                <p>
+                                    Dashboard for the user to Keep track of the
+                                    activities.
+                                </p>
+                                <ul class="description">
+                                    <li><a href="#">Uploads</a>.</li>
+                                    <li><a href="#">Hits</a>.</li>
+                                    <li><a href="#"> Sentiments</a>.</li>
+                                </ul>
+                            </div>
+                            <div class="column">
+                                <h4>
+                                    <svg class="fa-cubes">
+                                        <use xlink:href="#fa-cubes"></use>
+                                    </svg>
+                                    <strong>Sentimental Analysis.</strong>
+                                </h4>
+                                <p>
+                                    Analysis of the Reviews Given by the
+                                    Audience.
+                                </p>
+                                <ul class="description">
+                                    <li><a href="#">Positive</a></li>
+                                    <li><a href="#">Negative</a></li>
+                                    <li><a href="#">Neutral</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end .grid -->
+                    </div>
+                </section>
+                <section class="bg-apple">
+                    <span
+                        class="background dark"
+                        style="background-image:url('https://source.unsplash.com/RSOxw9X-suY/')"
+                    ></span>
+                    <div class="grid vertical-align">
+                        <div class="column">
+                            <h3>
+                                <strong
+                                    >Photo Object and Exif Data
+                                    Representation.</strong
+                                >
+                            </h3>
+                            <p class="text-intro">
+                                <strong>Exif Data</strong> is the meta data
+                                associated with the File which is relevent to
+                                the photographer.
+                            </p>
+                        </div>
+                        <!-- .end .column -->
+                        <div class="column code-comment">
+                            <pre>
+    {
+        "imageId": "507f191e810c19729de860ea",
+        "imageurl": "v1/api/picture/nature.png",
+        "imageCaption": "Photography is a way of feeling.",
+        "location": "Islamabad",
+   
+        "ImageBy": {
+        "id": "2101847512",
+        "username": "tarik.khattak"
+        },
+
+    "meta": {
+        "imagesize": "3.44Mb",
+        "Camera": "Nikon D5600",
+        "dimensions": {
+            "height": 1350,
+            "width": 1080
+        },
+    }
+</pre
+                            >
+                        </div>
+                        <!-- .end .column -->
+                    </div>
+                    <!-- .end .grid -->
+                </section>
+                <section>
+                    <span
+                        class="background dark"
+                        style="background-image:url('flow.png');
+                            background-size:contain;
+                            "
+                        ;
+                    ></span>
+                </section>
+                <section class="bg-apple">
+                    <span
+                        class="background dark"
+                        style="background-image:url('https://source.unsplash.com/RSOxw9X-suY/')"
+                    ></span>
+
+                    <div class="wrap">
+                        <div class="content-right text-serif">
+                            <h2>
+                                <strong>Thanks</strong>
+                                <a
+                                    target="_blank"
+                                    title="Share on Twitter"
+                                    href="https://twitter.com/intent/tweet?text=Finally,%20everything%20you%20need%20to%20make%20HTML%20presentations%20in%20a%20fast/beautiful%20way.%20@WebSlides%20=%20Good%20karma%20&mdash;%20https://webslides.tv"
+                                >
+                                    <svg class="fa-twitter">
+                                        <use xlink:href="#fa-twitter"></use>
+                                    </svg>
+                                </a>
+                            </h2>
+                            <p>
+                                For your Presence and Time.
+                            </p>
+                            <p>
+                                <a href="https://twitter.com/jlantunez"
+                                    >@Tariq Khattak</a
+                                >
+                                <a href="https://twitter.com/belelros"
+                                    >@Omer Farooq.</a
+                                >
+                            </p>
+                        </div>
+                        <!-- .end .content-right -->
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+                <section class="bg-apple">
+                    <span
+                        class="background dark"
+                        style="background-image:url('https://source.unsplash.com/RSOxw9X-suY/')"
+                    ></span>
+                    <div class="wrap aligncenter">
+                        <h1 class="text-landing">
+                            <strong>Questions?</strong>
+                        </h1>
+                    </div>
+                </section>
+            </article>
+            <!-- end article -->
+        </main>
+
+        <script src="static/js/webslides.js"></script>
+        <script>
+            window.ws = new WebSlides();
+        </script>
+    </body>
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+</html>
